@@ -10,6 +10,10 @@ import {
 
 import styles from "./styles/app.css"
 
+import Login from "./routes/login";
+import Index from "./routes";
+
+
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Nya Word", 
@@ -32,11 +36,13 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="min-h-screen w-full overflow-x-hidden flex flex-col min-h-screen">
+      <body className="min-h-screen w-full overflow-x-hidden flex flex-col min-h-screen bg-background">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <Login />
+
       </body>
     </html>
   );
