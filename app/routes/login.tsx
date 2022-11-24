@@ -5,7 +5,7 @@ export default function Login() {
         <div className="w-full max-w-md space-y-6">
           <div>
             <img
-              className="mx-auto h-61 w-auto"
+              className="mx-auto h-48 w-auto"
               src="https://i.imgur.com/YM2x83p.png"
             />
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-white">
