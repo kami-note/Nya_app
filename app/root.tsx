@@ -27,7 +27,7 @@ export function links() {
 
 export default function App() {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <head>
         <Meta />
         <Links />
