@@ -10,8 +10,6 @@ import {
 
 import styles from "./styles/app.css"
 
-import Login from "./routes/login";
-import Index from "./routes";
 
 
 export const meta: MetaFunction = () => ({
@@ -41,7 +39,6 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
-        <Login />
 
       </body>
     </html>
